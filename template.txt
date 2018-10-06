@@ -1,0 +1,47 @@
+
+# initial stuffs
+mkdir [name of folder]
+cd [name of folder]
+
+#git init
+
+# creating the file a readme.md file
+touch name_of_file 
+nano name_of_file
+printf 'message'>> name_of_file
+
+# git operations 
+git add [name of file]
+git commit -m 'type the message here']
+
+git remote add origin LINK.git
+
+git push -u origin [name of branch]
+
+# creating branches 
+git branch [name of branch]
+
+# to enter the branch 
+git checkout [branch name]
+
+
+# to combine to 2
+
+git checkout -b [name of the branch]
+
+# to rename your branch 
+git branch -m [name of the new branch]
+
+# to merge your branch to text- enter the branch you want and then type the command
+
+git merge [name of the branch]
+
+# to view your git activities 
+git log
+
+# to revert changes you made
+git revert [the commit id or SHA]
+
+
+# to clone 
+Git clone [the link to the clone]
